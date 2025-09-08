@@ -47,9 +47,7 @@ const Quiz = () => {
                 setQuestion(data[newIndex]);
                 setLock(false);
             } 
-            // else {
-            //     alert("Quiz Completed! Your score is " + score); 
-            // }
+
         }
     };
     const reset = ()=>{
