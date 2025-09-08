@@ -72,8 +72,7 @@
 /* ✅ Responsive Design */
 @media (max-width: 480px) {
     .container {
-        width: 85%;
-        margin-top: 30px;
+        width: 280px;
         padding: 15px;
     }
     .container h1 {
