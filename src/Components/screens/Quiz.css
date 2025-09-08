@@ -34,15 +34,27 @@
     cursor: pointer;
 }
 .container button{
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
     margin: auto;
     width: 180px;
     height: 48px;
-    background: #553f9a;
-    color: #fff;
     font-size: 16px;
     font-weight: 500;
-    border-radius: 6px;
     cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: none;
+    display: block;
+}
+.container button:hover{
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
 }
 .container .index{
     font-size: 12px;
